@@ -20,7 +20,7 @@ const Hero = () => {
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
-        <div className=" relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:md-20 lg:mb:[6rem]">
+        <div className=" relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb-[6rem]">
           <h1 className="h1 mb-6">
             Discover the Potential of&nbsp;AI&nbsp;Chatting with {` `}
             <span className="inline-block relative">
@@ -76,9 +76,8 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
-
-            <Gradient />
           </div>
+          <Gradient />
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}

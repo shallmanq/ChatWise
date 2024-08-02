@@ -29,7 +29,7 @@ const Pricing = () => {
 
         <Heading
           tag="Get started with ChatWise"
-          title="Pay once, use forever"
+          title="One-time payment, lifetime access"
         />
 
         <div className="relative">
